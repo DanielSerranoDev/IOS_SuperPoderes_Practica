@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94B59B002B8662B300E5DEFC /* IOS_SUPERPODERES_PRACTICAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B59AFF2B8662B300E5DEFC /* IOS_SUPERPODERES_PRACTICAApp.swift */; };
+		94B59B042B8662B400E5DEFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B59B032B8662B400E5DEFC /* Assets.xcassets */; };
+		94B59B072B8662B400E5DEFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B59B062B8662B400E5DEFC /* Preview Assets.xcassets */; };
+		94B59B122B86634200E5DEFC /* HeroesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B59B112B86634200E5DEFC /* HeroesListViewModel.swift */; };
+		94B59B142B86636E00E5DEFC /* Heroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B59B132B86636E00E5DEFC /* Heroes.swift */; };
+		94B59B172B8663FD00E5DEFC /* NetworkModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B59B162B8663FD00E5DEFC /* NetworkModule.swift */; };
+		94C89C992B8FACAD009CE7B3 /* KeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C89C982B8FACAD009CE7B3 /* KeyChain.swift */; };
+		94C89C9C2B8FAD94009CE7B3 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 94C89C9B2B8FAD94009CE7B3 /* KeychainSwift */; };
+		94C89CA22B90EE58009CE7B3 /* Comics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C89CA12B90EE58009CE7B3 /* Comics.swift */; };
+		94C89CA42B90FA88009CE7B3 /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C89CA32B90FA88009CE7B3 /* Series.swift */; };
+		94C89CA62B91CA65009CE7B3 /* HeroComicsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C89CA52B91CA65009CE7B3 /* HeroComicsListViewModel.swift */; };
+		94C89CA82B91D23B009CE7B3 /* HeroSeriesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C89CA72B91D23B009CE7B3 /* HeroSeriesListViewModel.swift */; };
+		94C89CAA2B92215B009CE7B3 /* HeroDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C89CA92B92215B009CE7B3 /* HeroDetailScreen.swift */; };
+		94DD865B2B8B69D400F404E6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD865A2B8B69D400F404E6 /* LoginView.swift */; };
+		94DD865D2B8B6A0700F404E6 /* HeroesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD865C2B8B6A0700F404E6 /* HeroesListView.swift */; };
+		94DD86622B8D146700F404E6 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD86612B8D146700F404E6 /* Status.swift */; };
+		94DD86662B8D156500F404E6 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD86652B8D156500F404E6 /* LoadingView.swift */; };
+		94DD86682B8D15B800F404E6 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD86672B8D15B800F404E6 /* ErrorView.swift */; };
+		94DD866A2B8E596100F404E6 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD86692B8E596100F404E6 /* MainViewModel.swift */; };
+		94DD866C2B8E597B00F404E6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD866B2B8E597B00F404E6 /* MainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94B59AFC2B8662B300E5DEFC /* IOS_SUPERPODERES_PRACTICA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_SUPERPODERES_PRACTICA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B59AFF2B8662B300E5DEFC /* IOS_SUPERPODERES_PRACTICAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_SUPERPODERES_PRACTICAApp.swift; sourceTree = "<group>"; };
+		94B59B032B8662B400E5DEFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94B59B062B8662B400E5DEFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94B59B112B86634200E5DEFC /* HeroesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesListViewModel.swift; sourceTree = "<group>"; };
+		94B59B132B86636E00E5DEFC /* Heroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroes.swift; sourceTree = "<group>"; };
+		94B59B162B8663FD00E5DEFC /* NetworkModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModule.swift; sourceTree = "<group>"; };
+		94C89C982B8FACAD009CE7B3 /* KeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChain.swift; sourceTree = "<group>"; };
+		94C89CA12B90EE58009CE7B3 /* Comics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comics.swift; sourceTree = "<group>"; };
+		94C89CA32B90FA88009CE7B3 /* Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
+		94C89CA52B91CA65009CE7B3 /* HeroComicsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroComicsListViewModel.swift; sourceTree = "<group>"; };
+		94C89CA72B91D23B009CE7B3 /* HeroSeriesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroSeriesListViewModel.swift; sourceTree = "<group>"; };
+		94C89CA92B92215B009CE7B3 /* HeroDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailScreen.swift; sourceTree = "<group>"; };
+		94DD86532B8B5A1800F404E6 /* IOS-SUPERPODERES-PRACTICA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "IOS-SUPERPODERES-PRACTICA-Info.plist"; sourceTree = SOURCE_ROOT; };
+		94DD865A2B8B69D400F404E6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		94DD865C2B8B6A0700F404E6 /* HeroesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesListView.swift; sourceTree = "<group>"; };
+		94DD86612B8D146700F404E6 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		94DD86652B8D156500F404E6 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		94DD86672B8D15B800F404E6 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		94DD86692B8E596100F404E6 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		94DD866B2B8E597B00F404E6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94B59AF92B8662B300E5DEFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C89C9C2B8FAD94009CE7B3 /* KeychainSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94B59AF32B8662B300E5DEFC = {
+			isa = PBXGroup;
+			children = (
+				94B59AFE2B8662B300E5DEFC /* IOS_SUPERPODERES_PRACTICA */,
+				94B59AFD2B8662B300E5DEFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94B59AFD2B8662B300E5DEFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94B59AFC2B8662B300E5DEFC /* IOS_SUPERPODERES_PRACTICA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94B59AFE2B8662B300E5DEFC /* IOS_SUPERPODERES_PRACTICA */ = {
+			isa = PBXGroup;
+			children = (
+				94B59AFF2B8662B300E5DEFC /* IOS_SUPERPODERES_PRACTICAApp.swift */,
+				94DD86532B8B5A1800F404E6 /* IOS-SUPERPODERES-PRACTICA-Info.plist */,
+				94C89C962B8FAC73009CE7B3 /* Data */,
+				94B59B152B8663E500E5DEFC /* Api */,
+				94B59B0D2B8662DB00E5DEFC /* Domains */,
+				94B59B0F2B86630F00E5DEFC /* Presentation */,
+				94B59B032B8662B400E5DEFC /* Assets.xcassets */,
+				94B59B052B8662B400E5DEFC /* Preview Content */,
+			);
+			path = IOS_SUPERPODERES_PRACTICA;
+			sourceTree = "<group>";
+		};
+		94B59B052B8662B400E5DEFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				94B59B062B8662B400E5DEFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		94B59B0D2B8662DB00E5DEFC /* Domains */ = {
+			isa = PBXGroup;
+			children = (
+				94B59B0E2B8662E700E5DEFC /* Models */,
+			);
+			path = Domains;
+			sourceTree = "<group>";
+		};
+		94B59B0E2B8662E700E5DEFC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				94B59B132B86636E00E5DEFC /* Heroes.swift */,
+				94DD86612B8D146700F404E6 /* Status.swift */,
+				94C89CA12B90EE58009CE7B3 /* Comics.swift */,
+				94C89CA32B90FA88009CE7B3 /* Series.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		94B59B0F2B86630F00E5DEFC /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				94DD865E2B8B6A6600F404E6 /* Views */,
+				94B59B102B86632100E5DEFC /* ViewModels */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		94B59B102B86632100E5DEFC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				94DD86692B8E596100F404E6 /* MainViewModel.swift */,
+				94B59B112B86634200E5DEFC /* HeroesListViewModel.swift */,
+				94C89CA52B91CA65009CE7B3 /* HeroComicsListViewModel.swift */,
+				94C89CA72B91D23B009CE7B3 /* HeroSeriesListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		94B59B152B8663E500E5DEFC /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				94B59B162B8663FD00E5DEFC /* NetworkModule.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		94C89C962B8FAC73009CE7B3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				94C89C972B8FAC9B009CE7B3 /* Local */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		94C89C972B8FAC9B009CE7B3 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				94C89C982B8FACAD009CE7B3 /* KeyChain.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		94C89C9D2B8FBCB3009CE7B3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				94DD865A2B8B69D400F404E6 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		94C89C9E2B8FBCBF009CE7B3 /* Heroes */ = {
+			isa = PBXGroup;
+			children = (
+				94DD865C2B8B6A0700F404E6 /* HeroesListView.swift */,
+				94C89CA92B92215B009CE7B3 /* HeroDetailScreen.swift */,
+			);
+			path = Heroes;
+			sourceTree = "<group>";
+		};
+		94C89C9F2B8FBCCD009CE7B3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				94DD866B2B8E597B00F404E6 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		94C89CA02B8FBCE0009CE7B3 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				94DD86652B8D156500F404E6 /* LoadingView.swift */,
+				94DD86672B8D15B800F404E6 /* ErrorView.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		94DD865E2B8B6A6600F404E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94C89C9F2B8FBCCD009CE7B3 /* Main */,
+				94C89C9D2B8FBCB3009CE7B3 /* Login */,
+				94C89C9E2B8FBCBF009CE7B3 /* Heroes */,
+				94C89CA02B8FBCE0009CE7B3 /* Tools */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94B59AFB2B8662B300E5DEFC /* IOS_SUPERPODERES_PRACTICA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B59B0A2B8662B400E5DEFC /* Build configuration list for PBXNativeTarget "IOS_SUPERPODERES_PRACTICA" */;
+			buildPhases = (
+				94B59AF82B8662B300E5DEFC /* Sources */,
+				94B59AF92B8662B300E5DEFC /* Frameworks */,
+				94B59AFA2B8662B300E5DEFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOS_SUPERPODERES_PRACTICA;
+			packageProductDependencies = (
+				94C89C9B2B8FAD94009CE7B3 /* KeychainSwift */,
+			);
+			productName = IOS_SUPERPODERES_PRACTICA;
+			productReference = 94B59AFC2B8662B300E5DEFC /* IOS_SUPERPODERES_PRACTICA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94B59AF42B8662B300E5DEFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					94B59AFB2B8662B300E5DEFC = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 94B59AF72B8662B300E5DEFC /* Build configuration list for PBXProject "IOS_SUPERPODERES_PRACTICA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94B59AF32B8662B300E5DEFC;
+			packageReferences = (
+				94C89C9A2B8FAD94009CE7B3 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+			);
+			productRefGroup = 94B59AFD2B8662B300E5DEFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94B59AFB2B8662B300E5DEFC /* IOS_SUPERPODERES_PRACTICA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94B59AFA2B8662B300E5DEFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B59B072B8662B400E5DEFC /* Preview Assets.xcassets in Resources */,
+				94B59B042B8662B400E5DEFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94B59AF82B8662B300E5DEFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C89CA22B90EE58009CE7B3 /* Comics.swift in Sources */,
+				94C89CA62B91CA65009CE7B3 /* HeroComicsListViewModel.swift in Sources */,
+				94B59B122B86634200E5DEFC /* HeroesListViewModel.swift in Sources */,
+				94C89CA82B91D23B009CE7B3 /* HeroSeriesListViewModel.swift in Sources */,
+				94C89C992B8FACAD009CE7B3 /* KeyChain.swift in Sources */,
+				94B59B172B8663FD00E5DEFC /* NetworkModule.swift in Sources */,
+				94DD86662B8D156500F404E6 /* LoadingView.swift in Sources */,
+				94DD865D2B8B6A0700F404E6 /* HeroesListView.swift in Sources */,
+				94C89CA42B90FA88009CE7B3 /* Series.swift in Sources */,
+				94B59B142B86636E00E5DEFC /* Heroes.swift in Sources */,
+				94C89CAA2B92215B009CE7B3 /* HeroDetailScreen.swift in Sources */,
+				94DD86682B8D15B800F404E6 /* ErrorView.swift in Sources */,
+				94DD86622B8D146700F404E6 /* Status.swift in Sources */,
+				94DD866C2B8E597B00F404E6 /* MainView.swift in Sources */,
+				94DD866A2B8E596100F404E6 /* MainViewModel.swift in Sources */,
+				94DD865B2B8B69D400F404E6 /* LoginView.swift in Sources */,
+				94B59B002B8662B300E5DEFC /* IOS_SUPERPODERES_PRACTICAApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		94B59B082B8662B400E5DEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94B59B092B8662B400E5DEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94B59B0B2B8662B400E5DEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IOS_SUPERPODERES_PRACTICA/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IOS-SUPERPODERES-PRACTICA-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.metalcry1.IOS-SUPERPODERES-PRACTICA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94B59B0C2B8662B400E5DEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IOS_SUPERPODERES_PRACTICA/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IOS-SUPERPODERES-PRACTICA-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.metalcry1.IOS-SUPERPODERES-PRACTICA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94B59AF72B8662B300E5DEFC /* Build configuration list for PBXProject "IOS_SUPERPODERES_PRACTICA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B59B082B8662B400E5DEFC /* Debug */,
+				94B59B092B8662B400E5DEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B59B0A2B8662B400E5DEFC /* Build configuration list for PBXNativeTarget "IOS_SUPERPODERES_PRACTICA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B59B0B2B8662B400E5DEFC /* Debug */,
+				94B59B0C2B8662B400E5DEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		94C89C9A2B8FAD94009CE7B3 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 21.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		94C89C9B2B8FAD94009CE7B3 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94C89C9A2B8FAD94009CE7B3 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 94B59AF42B8662B300E5DEFC /* Project object */;
+}
