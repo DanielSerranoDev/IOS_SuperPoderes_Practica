@@ -14,8 +14,32 @@ import ViewInspector
 
 class HeroesListViewTest: XCTestCase{
     
-    
-    
+    func testHeroesListView()throws{
+        let expectation = self.expectation(description: "Descarga de heros")
+        var suscriptor = Set<AnyCancellable>()
+        
+        let vm = HeroesListViewModel(testing: true)
+        XCTAssertNotNil(vm)
+        vm.heros.publisher
+            .sink { completion in
+                switch completion{
+                 case .finished:
+                     XCTAssertEqual(1, 1) //test OK
+                     expectation.fulfill()
+                 case .failure:
+                     XCTAssertEqual(1, 2) //genero el fallo
+                     expectation.fulfill()
+                 }
+            } receiveValue: { data in
+                XCTAssertEqual(1, 1)
+            }
+            .store(in: &suscriptor)
+        
+
+        vm.loadGetHeroesListTesting()
+        self.waitForExpectations(timeout: 10)
+        
+    }
 
     
     

@@ -26,6 +26,7 @@ struct LoginView: View {
                     .scaledToFill()
                     .frame(maxWidth:.leastNonzeroMagnitude, maxHeight: .infinity)
                     .edgesIgnoringSafeArea(.all)
+                    .id(0)
                 
                 VStack {
                     Spacer()
@@ -45,24 +46,30 @@ struct LoginView: View {
                         .background(Color(UIColor.lightGray))
                         .cornerRadius(5.0)
                         .padding(.bottom, 20)
+                        .id(1)
                     
                     SecureField("Password", text: $password)
                         .padding()
                         .background(Color(UIColor.lightGray))
                         .cornerRadius(5.0)
                         .padding(.bottom, 20)
+                        .id(2)
                     
                     Button(action: {
                         self.login()
-                    }) {
+                    })
+                    {
                         Text("Login")
                             .foregroundColor(.white)
                             .padding()
                             .frame(width: 220, height: 60)
                             .background(Color.blue)
                             .cornerRadius(15.0)
+                            .id(3)
+                            
                     }
                     .padding()
+                    .id(4)
                     
                     Spacer()
                 }

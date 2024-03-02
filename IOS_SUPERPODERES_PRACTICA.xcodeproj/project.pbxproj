@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94841B132B93B30600E7F3D4 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = 94841B122B93B30600E7F3D4 /* ViewInspector */; };
+		94841B152B93B39200E7F3D4 /* UIViewsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94841B142B93B39200E7F3D4 /* UIViewsTest.swift */; };
 		94B59B002B8662B300E5DEFC /* IOS_SUPERPODERES_PRACTICAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B59AFF2B8662B300E5DEFC /* IOS_SUPERPODERES_PRACTICAApp.swift */; };
 		94B59B042B8662B400E5DEFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B59B032B8662B400E5DEFC /* Assets.xcassets */; };
 		94B59B072B8662B400E5DEFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B59B062B8662B400E5DEFC /* Preview Assets.xcassets */; };
@@ -25,7 +27,6 @@
 		94C89CC02B934EA4009CE7B3 /* ModelsHeroesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C89CBF2B934EA4009CE7B3 /* ModelsHeroesTest.swift */; };
 		94C89CC32B9352B3009CE7B3 /* ModelComicsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C89CC22B9352B3009CE7B3 /* ModelComicsTest.swift */; };
 		94C89CC52B93555C009CE7B3 /* ModelSeriesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C89CC42B93555C009CE7B3 /* ModelSeriesTest.swift */; };
-		94C89CCC2B9364C6009CE7B3 /* ViewsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C89CCB2B9364C6009CE7B3 /* ViewsTest.swift */; };
 		94DD865B2B8B69D400F404E6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD865A2B8B69D400F404E6 /* LoginView.swift */; };
 		94DD865D2B8B6A0700F404E6 /* HeroesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD865C2B8B6A0700F404E6 /* HeroesListView.swift */; };
 		94DD86622B8D146700F404E6 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD86612B8D146700F404E6 /* Status.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		94841B142B93B39200E7F3D4 /* UIViewsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewsTest.swift; sourceTree = "<group>"; };
 		94B59AFC2B8662B300E5DEFC /* IOS_SUPERPODERES_PRACTICA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_SUPERPODERES_PRACTICA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B59AFF2B8662B300E5DEFC /* IOS_SUPERPODERES_PRACTICAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_SUPERPODERES_PRACTICAApp.swift; sourceTree = "<group>"; };
 		94B59B032B8662B400E5DEFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -65,7 +67,6 @@
 		94C89CBF2B934EA4009CE7B3 /* ModelsHeroesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsHeroesTest.swift; sourceTree = "<group>"; };
 		94C89CC22B9352B3009CE7B3 /* ModelComicsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelComicsTest.swift; sourceTree = "<group>"; };
 		94C89CC42B93555C009CE7B3 /* ModelSeriesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSeriesTest.swift; sourceTree = "<group>"; };
-		94C89CCB2B9364C6009CE7B3 /* ViewsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsTest.swift; sourceTree = "<group>"; };
 		94DD86532B8B5A1800F404E6 /* IOS-SUPERPODERES-PRACTICA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "IOS-SUPERPODERES-PRACTICA-Info.plist"; sourceTree = SOURCE_ROOT; };
 		94DD865A2B8B69D400F404E6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		94DD865C2B8B6A0700F404E6 /* HeroesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesListView.swift; sourceTree = "<group>"; };
@@ -89,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94841B132B93B30600E7F3D4 /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +283,7 @@
 		94C89CCA2B9364A5009CE7B3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				94C89CCB2B9364C6009CE7B3 /* ViewsTest.swift */,
+				94841B142B93B39200E7F3D4 /* UIViewsTest.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -334,6 +336,9 @@
 				94C89CB72B9324A5009CE7B3 /* PBXTargetDependency */,
 			);
 			name = IOS_SUPERPODERES_PRACTICATests;
+			packageProductDependencies = (
+				94841B122B93B30600E7F3D4 /* ViewInspector */,
+			);
 			productName = IOS_SUPERPODERES_PRACTICATests;
 			productReference = 94C89CB22B9324A5009CE7B3 /* IOS_SUPERPODERES_PRACTICATests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -368,6 +373,7 @@
 			mainGroup = 94B59AF32B8662B300E5DEFC;
 			packageReferences = (
 				94C89C9A2B8FAD94009CE7B3 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+				94841B112B93B30600E7F3D4 /* XCRemoteSwiftPackageReference "ViewInspector" */,
 			);
 			productRefGroup = 94B59AFD2B8662B300E5DEFC /* Products */;
 			projectDirPath = "";
@@ -427,9 +433,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94841B152B93B39200E7F3D4 /* UIViewsTest.swift in Sources */,
 				94C89CC52B93555C009CE7B3 /* ModelSeriesTest.swift in Sources */,
 				94C89CC32B9352B3009CE7B3 /* ModelComicsTest.swift in Sources */,
-				94C89CCC2B9364C6009CE7B3 /* ViewsTest.swift in Sources */,
 				94C89CBE2B93284B009CE7B3 /* HeroesListViewTest.swift in Sources */,
 				94C89CBC2B93251B009CE7B3 /* MainViewModelTest.swift in Sources */,
 				94C89CC02B934EA4009CE7B3 /* ModelsHeroesTest.swift in Sources */,
@@ -691,6 +697,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		94841B112B93B30600E7F3D4 /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nalexn/ViewInspector";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.10;
+			};
+		};
 		94C89C9A2B8FAD94009CE7B3 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/evgenyneu/keychain-swift";
@@ -702,6 +716,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		94841B122B93B30600E7F3D4 /* ViewInspector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94841B112B93B30600E7F3D4 /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			productName = ViewInspector;
+		};
 		94C89C9B2B8FAD94009CE7B3 /* KeychainSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 94C89C9A2B8FAD94009CE7B3 /* XCRemoteSwiftPackageReference "keychain-swift" */;

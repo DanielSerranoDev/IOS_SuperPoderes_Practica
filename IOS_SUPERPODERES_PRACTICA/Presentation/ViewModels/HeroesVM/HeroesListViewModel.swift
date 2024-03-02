@@ -143,11 +143,18 @@ class HeroesListViewModel: ObservableObject{
                 limit: 0,
                 total: 0,
                 count: 0,
-                results: [hero, hero, hero, hero, hero, hero, hero, hero]
+                results: [hero, hero]
             )
         )
         
         return data.data.results
+    }
+    
+    func loadGetHeroesListTesting(){
+        let b1 = getHerosMock()
+
+        
+        self.heros = b1
     }
 
     

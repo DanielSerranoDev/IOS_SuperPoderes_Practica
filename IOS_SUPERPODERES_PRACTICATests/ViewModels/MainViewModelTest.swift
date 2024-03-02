@@ -14,7 +14,7 @@ import Combine
 class MainViewModelTests: XCTestCase {
     
     
-    func testLogControlWithToken() {
+    func testLogControlWithToken()throws{
         // Arrange
         let viewModel = MainViewModel() 
         let mockToken = "mockToken123"
@@ -27,7 +27,7 @@ class MainViewModelTests: XCTestCase {
         XCTAssertEqual(viewModel.status, Status.heroesList, "El estado debería ser 'heroesList' cuando hay un token válido.")
     }
     
-    func testLogControlWithoutToken() {
+    func testLogControlWithoutToken()throws{
         // Arrange
         let viewModel = MainViewModel()
         let mockEmptyToken = ""
@@ -42,7 +42,7 @@ class MainViewModelTests: XCTestCase {
     
     
     
-    func testFakeLoginWithValidCredentials() {
+    func testFakeLoginWithValidCredentials()throws {
         // Arrange
         let viewModel = MainViewModel()
         
@@ -53,7 +53,7 @@ class MainViewModelTests: XCTestCase {
         XCTAssertEqual(token, "tokenfake.sdlkfjklsjfljf", "El token generado debe ser 'tokenfake.sdlkfjklsjfljf' para credenciales válidas.")
     }
     
-    func testFakeLoginWithEmptyCredentials() {
+    func testFakeLoginWithEmptyCredentials()throws {
         // Arrange
         let viewModel = MainViewModel()
         

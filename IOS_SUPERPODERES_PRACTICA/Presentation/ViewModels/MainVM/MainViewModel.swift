@@ -17,9 +17,13 @@ class MainViewModel: ObservableObject{
         }
     }
     
-    init()
-    {
-        logControl()
+    init(testing: Bool = false){
+        if (testing){
+            
+        }else{
+            logControl()
+        }
+        
     }
     
     func logControl(){
