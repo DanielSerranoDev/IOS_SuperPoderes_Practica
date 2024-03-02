@@ -31,19 +31,22 @@ class MainViewModel: ObservableObject{
         }
     }
     
-
     
     
-    func fakeLogin() ->String{
-        status = Status.loading
-
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-
-            self.status = Status.heroesList
+    
+    func fakeLogin(username: String, password: String) ->String{
+        if !(username.isEmpty && password.isEmpty){
+            //Simulo la carga de la api
+            status = Status.loading
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                self.status = Status.heroesList
+            }
+            
+            token = "tokenfake.sdlkfjklsjfljf"
+        }else{
+            token = ""
         }
-         token = "tokenfake.sdlkfjklsjfljf"
         return token
-        
     }
     
     

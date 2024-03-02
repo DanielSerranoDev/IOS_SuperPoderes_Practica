@@ -99,7 +99,8 @@ struct LoginView: View {
         default:
             // Si pasa todas las validaciones, realiza el inicio de sesión
             DispatchQueue.main.async {
-                let token = mainViewModel.fakeLogin()
+                let token = mainViewModel.fakeLogin(username: username, password: password)
+                
                 if !token.isEmpty {
                     haveToken = true
                 }

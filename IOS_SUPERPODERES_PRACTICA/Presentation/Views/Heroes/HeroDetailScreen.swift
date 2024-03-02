@@ -37,7 +37,8 @@ struct HeroDetailScreen: View {
                         }
                         .tag(0)
                 } else {
-                    Text("*** Información confidencial ***")
+                    //Text("*** Información confidencial ***")
+                    Image("topsecret")
                         .tabItem {
                             Image(systemName: "info.square")
                             Text("Descripción")
@@ -73,7 +74,6 @@ struct HeroDetailScreen: View {
                 .tag(2)
             }
             .onAppear{
-                print("paso por aqui")
                 print(hero.id)
                 print(hero.name)
                 heroComicsListViewModel.getComicsList(id: hero.id)

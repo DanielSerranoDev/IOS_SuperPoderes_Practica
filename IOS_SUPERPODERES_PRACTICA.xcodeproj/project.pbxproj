@@ -20,6 +20,12 @@
 		94C89CA62B91CA65009CE7B3 /* HeroComicsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C89CA52B91CA65009CE7B3 /* HeroComicsListViewModel.swift */; };
 		94C89CA82B91D23B009CE7B3 /* HeroSeriesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C89CA72B91D23B009CE7B3 /* HeroSeriesListViewModel.swift */; };
 		94C89CAA2B92215B009CE7B3 /* HeroDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C89CA92B92215B009CE7B3 /* HeroDetailScreen.swift */; };
+		94C89CBC2B93251B009CE7B3 /* MainViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C89CBB2B93251A009CE7B3 /* MainViewModelTest.swift */; };
+		94C89CBE2B93284B009CE7B3 /* HeroesListViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C89CBD2B93284B009CE7B3 /* HeroesListViewTest.swift */; };
+		94C89CC02B934EA4009CE7B3 /* ModelsHeroesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C89CBF2B934EA4009CE7B3 /* ModelsHeroesTest.swift */; };
+		94C89CC32B9352B3009CE7B3 /* ModelComicsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C89CC22B9352B3009CE7B3 /* ModelComicsTest.swift */; };
+		94C89CC52B93555C009CE7B3 /* ModelSeriesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C89CC42B93555C009CE7B3 /* ModelSeriesTest.swift */; };
+		94C89CCC2B9364C6009CE7B3 /* ViewsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C89CCB2B9364C6009CE7B3 /* ViewsTest.swift */; };
 		94DD865B2B8B69D400F404E6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD865A2B8B69D400F404E6 /* LoginView.swift */; };
 		94DD865D2B8B6A0700F404E6 /* HeroesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD865C2B8B6A0700F404E6 /* HeroesListView.swift */; };
 		94DD86622B8D146700F404E6 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD86612B8D146700F404E6 /* Status.swift */; };
@@ -28,6 +34,16 @@
 		94DD866A2B8E596100F404E6 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD86692B8E596100F404E6 /* MainViewModel.swift */; };
 		94DD866C2B8E597B00F404E6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD866B2B8E597B00F404E6 /* MainView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94C89CB62B9324A5009CE7B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94B59AF42B8662B300E5DEFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B59AFB2B8662B300E5DEFC;
+			remoteInfo = IOS_SUPERPODERES_PRACTICA;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		94B59AFC2B8662B300E5DEFC /* IOS_SUPERPODERES_PRACTICA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_SUPERPODERES_PRACTICA.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +59,13 @@
 		94C89CA52B91CA65009CE7B3 /* HeroComicsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroComicsListViewModel.swift; sourceTree = "<group>"; };
 		94C89CA72B91D23B009CE7B3 /* HeroSeriesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroSeriesListViewModel.swift; sourceTree = "<group>"; };
 		94C89CA92B92215B009CE7B3 /* HeroDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailScreen.swift; sourceTree = "<group>"; };
+		94C89CB22B9324A5009CE7B3 /* IOS_SUPERPODERES_PRACTICATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS_SUPERPODERES_PRACTICATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C89CBB2B93251A009CE7B3 /* MainViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelTest.swift; sourceTree = "<group>"; };
+		94C89CBD2B93284B009CE7B3 /* HeroesListViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesListViewTest.swift; sourceTree = "<group>"; };
+		94C89CBF2B934EA4009CE7B3 /* ModelsHeroesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsHeroesTest.swift; sourceTree = "<group>"; };
+		94C89CC22B9352B3009CE7B3 /* ModelComicsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelComicsTest.swift; sourceTree = "<group>"; };
+		94C89CC42B93555C009CE7B3 /* ModelSeriesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSeriesTest.swift; sourceTree = "<group>"; };
+		94C89CCB2B9364C6009CE7B3 /* ViewsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsTest.swift; sourceTree = "<group>"; };
 		94DD86532B8B5A1800F404E6 /* IOS-SUPERPODERES-PRACTICA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "IOS-SUPERPODERES-PRACTICA-Info.plist"; sourceTree = SOURCE_ROOT; };
 		94DD865A2B8B69D400F404E6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		94DD865C2B8B6A0700F404E6 /* HeroesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesListView.swift; sourceTree = "<group>"; };
@@ -62,6 +85,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		94C89CAF2B9324A5009CE7B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -69,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				94B59AFE2B8662B300E5DEFC /* IOS_SUPERPODERES_PRACTICA */,
+				94C89CB32B9324A5009CE7B3 /* IOS_SUPERPODERES_PRACTICATests */,
 				94B59AFD2B8662B300E5DEFC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				94B59AFC2B8662B300E5DEFC /* IOS_SUPERPODERES_PRACTICA.app */,
+				94C89CB22B9324A5009CE7B3 /* IOS_SUPERPODERES_PRACTICATests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,10 +167,8 @@
 		94B59B102B86632100E5DEFC /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				94DD86692B8E596100F404E6 /* MainViewModel.swift */,
-				94B59B112B86634200E5DEFC /* HeroesListViewModel.swift */,
-				94C89CA52B91CA65009CE7B3 /* HeroComicsListViewModel.swift */,
-				94C89CA72B91D23B009CE7B3 /* HeroSeriesListViewModel.swift */,
+				94C89CAC2B9323E1009CE7B3 /* MainVM */,
+				94C89CAD2B9323EC009CE7B3 /* HeroesVM */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -201,6 +231,61 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		94C89CAC2B9323E1009CE7B3 /* MainVM */ = {
+			isa = PBXGroup;
+			children = (
+				94DD86692B8E596100F404E6 /* MainViewModel.swift */,
+			);
+			path = MainVM;
+			sourceTree = "<group>";
+		};
+		94C89CAD2B9323EC009CE7B3 /* HeroesVM */ = {
+			isa = PBXGroup;
+			children = (
+				94B59B112B86634200E5DEFC /* HeroesListViewModel.swift */,
+				94C89CA52B91CA65009CE7B3 /* HeroComicsListViewModel.swift */,
+				94C89CA72B91D23B009CE7B3 /* HeroSeriesListViewModel.swift */,
+			);
+			path = HeroesVM;
+			sourceTree = "<group>";
+		};
+		94C89CB32B9324A5009CE7B3 /* IOS_SUPERPODERES_PRACTICATests */ = {
+			isa = PBXGroup;
+			children = (
+				94C89CCA2B9364A5009CE7B3 /* Views */,
+				94C89CC12B935297009CE7B3 /* Models */,
+				94C89CC62B935764009CE7B3 /* ViewModels */,
+			);
+			path = IOS_SUPERPODERES_PRACTICATests;
+			sourceTree = "<group>";
+		};
+		94C89CC12B935297009CE7B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				94C89CBF2B934EA4009CE7B3 /* ModelsHeroesTest.swift */,
+				94C89CC22B9352B3009CE7B3 /* ModelComicsTest.swift */,
+				94C89CC42B93555C009CE7B3 /* ModelSeriesTest.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		94C89CC62B935764009CE7B3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				94C89CBB2B93251A009CE7B3 /* MainViewModelTest.swift */,
+				94C89CBD2B93284B009CE7B3 /* HeroesListViewTest.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		94C89CCA2B9364A5009CE7B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94C89CCB2B9364C6009CE7B3 /* ViewsTest.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		94DD865E2B8B6A6600F404E6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -235,6 +320,24 @@
 			productReference = 94B59AFC2B8662B300E5DEFC /* IOS_SUPERPODERES_PRACTICA.app */;
 			productType = "com.apple.product-type.application";
 		};
+		94C89CB12B9324A5009CE7B3 /* IOS_SUPERPODERES_PRACTICATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C89CB82B9324A5009CE7B3 /* Build configuration list for PBXNativeTarget "IOS_SUPERPODERES_PRACTICATests" */;
+			buildPhases = (
+				94C89CAE2B9324A5009CE7B3 /* Sources */,
+				94C89CAF2B9324A5009CE7B3 /* Frameworks */,
+				94C89CB02B9324A5009CE7B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94C89CB72B9324A5009CE7B3 /* PBXTargetDependency */,
+			);
+			name = IOS_SUPERPODERES_PRACTICATests;
+			productName = IOS_SUPERPODERES_PRACTICATests;
+			productReference = 94C89CB22B9324A5009CE7B3 /* IOS_SUPERPODERES_PRACTICATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -247,6 +350,10 @@
 				TargetAttributes = {
 					94B59AFB2B8662B300E5DEFC = {
 						CreatedOnToolsVersion = 15.0;
+					};
+					94C89CB12B9324A5009CE7B3 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 94B59AFB2B8662B300E5DEFC;
 					};
 				};
 			};
@@ -267,6 +374,7 @@
 			projectRoot = "";
 			targets = (
 				94B59AFB2B8662B300E5DEFC /* IOS_SUPERPODERES_PRACTICA */,
+				94C89CB12B9324A5009CE7B3 /* IOS_SUPERPODERES_PRACTICATests */,
 			);
 		};
 /* End PBXProject section */
@@ -278,6 +386,13 @@
 			files = (
 				94B59B072B8662B400E5DEFC /* Preview Assets.xcassets in Resources */,
 				94B59B042B8662B400E5DEFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C89CB02B9324A5009CE7B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +423,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		94C89CAE2B9324A5009CE7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C89CC52B93555C009CE7B3 /* ModelSeriesTest.swift in Sources */,
+				94C89CC32B9352B3009CE7B3 /* ModelComicsTest.swift in Sources */,
+				94C89CCC2B9364C6009CE7B3 /* ViewsTest.swift in Sources */,
+				94C89CBE2B93284B009CE7B3 /* HeroesListViewTest.swift in Sources */,
+				94C89CBC2B93251B009CE7B3 /* MainViewModelTest.swift in Sources */,
+				94C89CC02B934EA4009CE7B3 /* ModelsHeroesTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94C89CB72B9324A5009CE7B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94B59AFB2B8662B300E5DEFC /* IOS_SUPERPODERES_PRACTICA */;
+			targetProxy = 94C89CB62B9324A5009CE7B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		94B59B082B8662B400E5DEFC /* Debug */ = {
@@ -488,6 +624,40 @@
 			};
 			name = Release;
 		};
+		94C89CB92B9324A5009CE7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.metalcry1.IOS-SUPERPODERES-PRACTICATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS_SUPERPODERES_PRACTICA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IOS_SUPERPODERES_PRACTICA";
+			};
+			name = Debug;
+		};
+		94C89CBA2B9324A5009CE7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.metalcry1.IOS-SUPERPODERES-PRACTICATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS_SUPERPODERES_PRACTICA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IOS_SUPERPODERES_PRACTICA";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -505,6 +675,15 @@
 			buildConfigurations = (
 				94B59B0B2B8662B400E5DEFC /* Debug */,
 				94B59B0C2B8662B400E5DEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C89CB82B9324A5009CE7B3 /* Build configuration list for PBXNativeTarget "IOS_SUPERPODERES_PRACTICATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C89CB92B9324A5009CE7B3 /* Debug */,
+				94C89CBA2B9324A5009CE7B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

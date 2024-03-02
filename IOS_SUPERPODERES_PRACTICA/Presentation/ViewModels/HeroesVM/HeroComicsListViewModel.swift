@@ -36,6 +36,7 @@ class HeroComicsListViewModel: ObservableObject{
                 }
             } receiveValue: { data in
                 self.requestMarvelComics = data
+                print(data)
             }
             .store(in: &suscriptorsComics)
         

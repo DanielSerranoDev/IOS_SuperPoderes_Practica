@@ -44,7 +44,7 @@ struct ResultSeries: Codable, Identifiable {
 
 
 // MARK: - Characters
-struct CharactersSeries: Codable {
+struct CharactersSeries: Codable, Equatable {
     let available: Int
     let collectionURI: String
     let items: [NextSeries]
@@ -52,13 +52,13 @@ struct CharactersSeries: Codable {
 }
 
 // MARK: - Next
-struct NextSeries: Codable {
+struct NextSeries: Codable, Equatable {
     let resourceURI: String
     let name: String
 }
 
 // MARK: - Creators
-struct CreatorsSeries: Codable {
+struct CreatorsSeries: Codable, Equatable {
     let available: Int
     let collectionURI: String
     let items: [CreatorsItemSeries]
@@ -66,7 +66,7 @@ struct CreatorsSeries: Codable {
 }
 
 // MARK: - CreatorsItem
-struct CreatorsItemSeries: Codable {
+struct CreatorsItemSeries: Codable, Equatable {
     let resourceURI: String
     let name: String
     let role: String
@@ -75,7 +75,7 @@ struct CreatorsItemSeries: Codable {
 
 
 // MARK: - Stories
-struct StoriesSeries: Codable {
+struct StoriesSeries: Codable, Equatable {
     let available: Int
     let collectionURI: String
     let items: [StoriesItemSeries]
@@ -83,7 +83,7 @@ struct StoriesSeries: Codable {
 }
 
 // MARK: - StoriesItem
-struct StoriesItemSeries: Codable {
+struct StoriesItemSeries: Codable, Equatable {
     let resourceURI: String
     let name: String
     let type: String
@@ -91,7 +91,7 @@ struct StoriesItemSeries: Codable {
 
 
 // MARK: - Thumbnail
-struct ThumbnailSeries: Codable {
+struct ThumbnailSeries: Codable, Equatable {
     let path: String
     let thumbnailExtension: String
 
@@ -104,13 +104,13 @@ struct ThumbnailSeries: Codable {
 
 
 // MARK: - URLElement
-struct URLElementSeries: Codable {
+struct URLElementSeries: Codable, Equatable {
     let type: String
     let url: String
 }
 
 
-struct previousSeries: Codable{
+struct previousSeries: Codable, Equatable{
     let resourceURI: String
     let name: String
     

@@ -74,6 +74,7 @@ final class NetworkModule{
         var request: URLRequest = URLRequest(url: URL(string: urlString)!)
         request.httpMethod = HTTPMethods.get
         request.addValue(HTTPMethods.content, forHTTPHeaderField: "Content-type")
+        
         return request
         
     }
