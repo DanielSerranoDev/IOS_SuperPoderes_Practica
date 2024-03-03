@@ -94,14 +94,6 @@ struct DateElementComics: Codable, Equatable {
     let date: String
 }
 
-
-enum FormatComics: String, Codable, Equatable {
-    case comic = "Comic"
-    case digitalVerticalComic = "Digital Vertical Comic"
-    case hardcover = "Hardcover"
-    case tradePaperback = "Trade Paperback"
-}
-
 // MARK: - Thumbnail
 struct ThumbnailComics: Codable, Equatable {
     let path: String
@@ -113,24 +105,10 @@ struct ThumbnailComics: Codable, Equatable {
     }
 }
 
-enum ExtensionComics: String, Codable, Equatable {
-    case jpg = "jpg"
-}
-
-enum IssnComics: String, Codable {
-    case empty = ""
-    case the23306777 = "2330-6777"
-}
-
 // MARK: - Price
 struct PriceComics: Codable, Equatable {
-    let type: PriceTypeComics
+    let type: String
     let price: Double
-}
-
-enum PriceTypeComics: String, Codable, Equatable {
-    case digitalPurchasePrice = "digitalPurchasePrice"
-    case printPrice = "printPrice"
 }
 
 // MARK: - Stories
@@ -145,12 +123,7 @@ struct StoriesComics: Codable, Equatable {
 struct StoriesItemComics: Codable, Equatable {
     let resourceURI: String
     let name: String
-    let type: ItemTypeComics
-}
-
-enum ItemTypeComics: String, Codable, Equatable {
-    case cover = "cover"
-    case interiorStory = "interiorStory"
+    let type: String
 }
 
 // MARK: - TextObject
@@ -160,14 +133,9 @@ struct TextObjectComics: Codable, Equatable {
 
 // MARK: - URLElement
 struct URLElementComics: Codable , Equatable{
-    let type: URLTypeComics
+    let type: String
     let url: String
 }
 
-enum URLTypeComics: String, Codable, Equatable {
-    case detail = "detail"
-    case inAppLink = "inAppLink"
-    case purchase = "purchase"
-    case reader = "reader"
-}
+
 

@@ -35,8 +35,11 @@ struct HeroesListView: View {
                         isShowingLoginView = true
                     }) {
                         Image(systemName: "rectangle.portrait.and.arrow.right")
+                            .id(0)
                         Text("logout")
+                            .id(1)
                     }
+                    .id(2)
                     .fullScreenCover(isPresented: $isShowingLoginView) {
                         NavigationView {
                             LoginView()
@@ -51,12 +54,12 @@ struct HeroesListView: View {
         VStack {
             Text(hero.name)
                 .foregroundColor(.black)
-            
             AsyncImage(url: URL(string: "\(hero.thumbnail.path).\(hero.thumbnail.thumbnailExtension)")) { image in
                 image
                     .resizable()
                     .scaledToFill()
                     .cornerRadius(20)
+                    
             } placeholder: {
                 ProgressView()
             }

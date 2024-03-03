@@ -21,11 +21,13 @@ struct HeroDetailScreen: View {
                         .resizable()
                         .frame(width: 300, height: 300)
                         .cornerRadius(20)
+                        .id(0)
                 } placeholder: {
                     ProgressView()
                 }
             }
             Text(hero.name)
+                .id(1)
             
             TabView(selection: $selectedTabIndex) {
                 // Primer elemento para la descripción
