@@ -76,8 +76,6 @@ struct HeroDetailScreen: View {
                 .tag(2)
             }
             .onAppear{
-                print(hero.id)
-                print(hero.name)
                 heroComicsListViewModel.getComicsList(id: hero.id)
                 heroSeriesListViewModel.getSeriesList(id: hero.id)
             }
