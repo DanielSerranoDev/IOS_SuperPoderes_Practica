@@ -18,11 +18,10 @@ class MainViewModel: ObservableObject{
     }
     
     init(testing: Bool = false){
-        if (testing){
-            
-        }else{
+        if !(testing){
             logControl()
         }
+
         
     }
     

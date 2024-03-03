@@ -12,7 +12,7 @@ import ViewInspector
 
 @testable import IOS_SUPERPODERES_PRACTICA
 
-class HeroesListViewTest: XCTestCase{
+class HeroesListViewModelTest: XCTestCase{
     
     func testHeroesListView()throws{
         let expectation = self.expectation(description: "Descarga de heros")

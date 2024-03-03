@@ -1,5 +1,5 @@
 //
-//  ComicsListViewTest.swift
+//  HeroSeriesListViewModelSeries.swift
 //  IOS_SUPERPODERES_PRACTICATests
 //
 //  Created by Daniel Serrano on 3/3/24.
@@ -11,16 +11,15 @@ import Combine
 import ViewInspector
 
 @testable import IOS_SUPERPODERES_PRACTICA
+final class HeroSeriesListViewModelSeries: XCTestCase {
 
-final class ComicsListViewTest: XCTestCase {
- 
-    func testHeroesListView()throws{
-        let expectation = self.expectation(description: "Descarga de Comics")
+    func testHeroSeriesListViewModel()throws{
+        let expectation = self.expectation(description: "Descarga de Series")
         var suscriptor = Set<AnyCancellable>()
         
-        let vm = HeroComicsListViewModel()
+        let vm = HeroSeriesListViewModel()
         XCTAssertNotNil(vm)
-        vm.comics.publisher
+        vm.series.publisher
             .sink { completion in
                 switch completion{
                  case .finished:
@@ -36,8 +35,10 @@ final class ComicsListViewTest: XCTestCase {
             .store(in: &suscriptor)
         
 
-        vm.loadGetComicsListTesting()
+        vm.loadGetSeriesListTesting()
         self.waitForExpectations(timeout: 10)
         
     }
+
+
 }
